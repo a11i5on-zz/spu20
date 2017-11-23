@@ -25,6 +25,7 @@
 
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -41,13 +42,13 @@
             <h2 class="brand-tagline">A Timeline of DNA Discoveries</h2>
 
             <ul>
-                <li><span>1</span>1869</li>
-                <li><span>2</span>1944</li>
-                <li><span>3</span>1947</li>
-                <li><span>4</span>1952</li>
-                <li><span>4</span>1953</li>
-                <li><span>4</span>1958</li>
-                <li><span>4</span>1961</li>
+                <li class="dates" data-id="date1"><span>1</span>1869</li>
+                <li class="dates" data-id="date2"><span>2</span>1944</li>
+                <li class="dates" data-id="date3"><span>3</span>1947</li>
+                <li class="dates" data-id="date4"><span>4</span>1952</li>
+                <li class="dates" data-id="date5"><span>5</span>1953</li>
+                <li class="dates" data-id="date6"><span>6</span>1958</li>
+                <li class="dates" data-id="date7"><span>7</span>1961</li>
             </ul>
         </div>
     </div>
@@ -55,7 +56,7 @@
     <div class="content pure-u-1 pure-u-md-3-4">
         <div>
 
-            <div class="posts">
+            <div class="posts" id="date1">
                 <h1 class="content-subhead">1869</h1>
 
                 <!-- A single blog post -->
@@ -76,7 +77,7 @@
                 </section>
             </div>
 
-            <div class="posts">
+            <div class="posts" id="date2">
                 <h1 class="content-subhead">1944</h1>
 
                 <!-- A single blog post -->
@@ -99,7 +100,7 @@
                 </section>
             </div>
 
-            <div class="posts">
+            <div class="posts" id="date3">
                 <h1 class="content-subhead">1947</h1>
 
                 <!-- A single blog post -->
@@ -120,7 +121,7 @@
                 </section>
             </div>
 
-            <div class="posts">
+            <div class="posts" id="date4">
                 <h1 class="content-subhead">1952</h1>
 
                 <!-- A single blog post -->
@@ -141,7 +142,7 @@
                 </section>
             </div>
 
-            <div class="posts">
+            <div class="posts" id="date5">
                 <h1 class="content-subhead">1953</h1>
 
                 <!-- A single blog post -->
@@ -162,7 +163,7 @@
                 </section>
             </div>
 
-            <div class="posts">
+            <div class="posts" id="date6">
                 <h1 class="content-subhead">1958</h1>
 
                 <!-- A single blog post -->
@@ -183,7 +184,7 @@
                 </section>
             </div>
 
-            <div class="posts">
+            <div class="posts" id="date7">
                 <h1 class="content-subhead">1961</h1>
 
                 <!-- A single blog post -->
@@ -209,7 +210,14 @@
     </div>
 </div>
 
-
+<script>
+  $(".dates").click(function() {
+  	var num = $(this).attr('data-id');
+      $('html, body').animate({
+          scrollTop: $("#"+num).offset().top
+      }, 400);
+  });
+</script>
 
 
 </body>

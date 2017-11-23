@@ -215,3 +215,5 @@ ul li:last-child{
 .posts {
     min-height: 400px;
 }
+
+ul li:hover{ cursor:pointer}
