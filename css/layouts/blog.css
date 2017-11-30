@@ -174,11 +174,11 @@ h3 {
     }
 }
 
-ul {
+ul.timeline_ul {
   list-style: none;
 }
 
-ul li {
+ul.timeline_ul li {
   padding-bottom: 40px;
   position:relative
 }
@@ -216,4 +216,8 @@ ul li:last-child{
     min-height: 400px;
 }
 
-ul li:hover{ cursor:pointer}
+ul.timeline_ul li:hover{ cursor:pointer}
+
+h3 {
+    font-size: x-large;
+}
