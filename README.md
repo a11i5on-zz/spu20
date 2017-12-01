@@ -14,6 +14,8 @@ Credit/Sources
   - Miescher: 
     - Ralf Dahm, Friedrich Miescher and the discovery of DNA, In Developmental Biology, Volume 278, Issue 2, 2005, Pages 274-288, ISSN 0012-1606, https://doi.org/10.1016/j.ydbio.2004.11.028.
       (http://www.sciencedirect.com/science/article/pii/S0012160604008231)
+  - Beadle and Tatum: 
+    - Beadle GW, Tatum EL (15 November 1941). ["Genetic Control of Biochemical Reactions in Neurospora"](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1078370). *PNAS*. **27** (11): 499–506. 
   - Avery: 
     - Avery OT, MacLeod CM, McCarty M. STUDIES ON THE CHEMICAL NATURE OF THE SUBSTANCE INDUCING TRANSFORMATION OF PNEUMOCOCCAL TYPES : INDUCTION OF TRANSFORMATION BY A DESOXYRIBONUCLEIC ACID FRACTION ISOLATED FROM PNEUMOCOCCUS TYPE III. *The Journal of Experimental Medicine*. 1944;79(2):137-158. (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2135445/)
   - Chargaff: 
